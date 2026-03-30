@@ -18,6 +18,12 @@ export const Projects = () => {
       name: "Navguard",
       desc: "An assistance tool for maritime security operations, providing real-time threat assessment and response coordination.",
       tags: ["Simulation", "Maritime", "Algorithm"]
+    },
+    {
+      chip: "IoT",
+      name: "Hermes",
+      desc: "Project Hermes is a direct response to these industrial ”pain points.” The objective is to provide a minimalist, zero-allocation transport layer delivered as a single-header C library. By prioritizing a static memory model (Arena Allocation) and a streamlined transport bus (NATS), Hermes aims to maintain end-to-end latency consistently below 1ms with near-zero jitter.",
+      tags: ["Sensors", "Robotics", "Data Analytics"]
     }
   ];
 

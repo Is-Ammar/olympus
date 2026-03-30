@@ -17,8 +17,8 @@ const config: Config = {
         dark: "var(--dark)",
       },
       fontFamily: {
-        display: ["var(--font-display)", "sans-serif"],
-        body: ["var(--font-body)", "sans-serif"],
+        display: ["var(--font-serif)", "serif"],
+        body: ["var(--font-serif)", "serif"],
         mono: ["var(--font-mono)", "monospace"],
       },
       fontSize: {

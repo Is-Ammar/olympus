@@ -1,20 +1,11 @@
 import type { Metadata } from "next";
-import { Syne, DM_Sans, JetBrains_Mono, Inter } from "next/font/google";
+import { Lora, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 
-const inter = Inter({subsets:['latin'],variable:'--font-sans'});
-
-const syne = Syne({
+const lora = Lora({
   subsets: ["latin"],
-  weight: ["400", "700", "800"],
-  variable: "--font-display",
-});
-
-const dmSans = DM_Sans({
-  subsets: ["latin"],
-  weight: ["400", "500", "600"],
-  variable: "--font-body",
+  variable: "--font-serif",
 });
 
 const jetbrainsMono = JetBrains_Mono({
@@ -34,7 +25,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={cn("font-sans", inter.variable, syne.variable, dmSans.variable, jetbrainsMono.variable)}>
+    <html lang="en" className={cn("font-serif", lora.variable, jetbrainsMono.variable)}>
       <body className="antialiased">
         {children}
       </body>

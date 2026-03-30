@@ -14,10 +14,10 @@ export const Projects = () => {
       tags: ["CLI", "Genomics", "Quality Control", "Annotation"]
     },
     {
-      chip: "Computational Physics",
-      name: "Chaos",
-      desc: "A molecular dynamics simulator developed to strengthen Olympus's computational methodology and explore simulation techniques at the molecular scale.",
-      tags: ["Simulation", "Molecular Dynamics", "Python", "C++"]
+      chip: "Maritime Security",
+      name: "Navguard",
+      desc: "An assistance tool for maritime security operations, providing real-time threat assessment and response coordination.",
+      tags: ["Simulation", "Maritime", "Algorithm"]
     }
   ];
 
